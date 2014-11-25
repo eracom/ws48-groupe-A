@@ -1,6 +1,10 @@
 # handicap Styleguide
 
-This is my new awesome styleguide generated with [Antistatique](http://www.antistatique.net)'s [styleguide-generator](https://github.com/tonifisler/generator-styleguide)! 
+This is my new awesome styleguide generated with [Antistatique](http://www.antistatique.net)'s [styleguide-generator](https://github.com/tonifisler/generator-styleguide)!
+
+```none_example
+<a href="pages/index.html" class="btn btn-primary">Static example pages</a>
+```
 
 **<3 Yeoman + Gulp + Hologram**
 
