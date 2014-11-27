@@ -59,7 +59,34 @@ ul .dropdown-menu
 }
 .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
     float: right;
+
 }
+
+    .liste li {
+    border-bottom: 1px solid #fff;
+    line-height: 200%;
+   
+    list-style-position: inside;
+    color:#fff;
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+
+} 
+
+
+div.row2 {
+
+	height: 140px;
+    margin-top: 30px;
+    background-color:#1D1D1B
+
+}
+
+
+
+
 
 body {
     background-color: #eee;
