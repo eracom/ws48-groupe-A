@@ -58,14 +58,17 @@ category: Components - Nav
 
 ```html_example
 <ul class="nav nav-pills nav-justified">
-  <li class="active"><a href="#">Home</a></li>
-  <li><a href="#">Profile</a></li>
-  <li><a href="#">Messages</a></li>
+  <li class="active"><a href="#">Nos savoirs-faire</a></li>
+  <li><a href="#">Qui sommes-nous</a></li>
+  <li><a href="#">Nos projets</a></li>
+  <li><a href="#">Nous soutenir</a></li>
 </ul>
 ```
 */
-
-
+ 
+.nav-justified li {
+  border-radius: 4px;
+}
 
 /*doc
 ---
