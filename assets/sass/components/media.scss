@@ -8,33 +8,40 @@ category: Components - Media
 ---
 
 ```html_example
-<div class="media">
-  <a class="pull-left" href="#">
-    <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
-  </a>
-  <div class="media-body">
-    <h4 class="media-heading">Media heading</h4>
-    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-  </div>
-</div>
-<div class="media">
-  <a class="pull-left" href="#">
-    <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
-  </a>
-  <div class="media-body">
-    <h4 class="media-heading">Media heading</h4>
-    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+<div class="container-fluid">
+<div class="row">
+  <div class="col-sm-6">
     <div class="media">
-      <a class="pull-left" href="#">
-        <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="http://lorempixel.com/64/64/cats" style="width: 64px; height: 64px;">
-      </a>
-      <div class="media-body">
-        <h4 class="media-heading">Nested media heading</h4>
-        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+      <img class="media-object" data-src="holder.js/257x171" alt="257x171" src="http://lorempixel.com/400/230/nature" style="width: 400px; height: 230px;">
+      <br>
+      <br>
+    </a>
+    <div class="media-body">
+      <h5 class="media-heading">Bonsoir</h5>
+      C’est dimanche 16 novembre à 22h que s’est terminée la vente aux enchères de ricardo.ch et Handicap International. Trois prix exceptionnels ont trouvé des propriétaires heureux. Handicap International est plus que satisfait des résultats. Pendant 10 jours des... 
+      <br>
+      <br>
+      <button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">
+        Afficher plus
+      </button>
+      <br><br>
+
+      <div id="demo" class="collapse">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae enim adhuc protulisti, popularia sunt, ego autem a te elegantiora desidero. Non est igitur voluptas bonum. Teneo, inquit, finem illi videri nihil dolere. Non quam nostram quidem, inquit Pomponius iocans; Non igitur potestis voluptate omnia dirigentes aut tueri aut retinere virtutem. Duo Reges: constructio interrete. Ex ea difficultate illae fallaciloquae, ut ait Accius, malitiae natae sunt.
       </div>
+      <br>
+      <br>
     </div>
   </div>
+  </div>
 </div>
+</div>
+
+
+
+
+
+
 ```
 */
 
