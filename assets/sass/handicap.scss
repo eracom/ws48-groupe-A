@@ -55,12 +55,18 @@ ul .dropdown-menu
     box-sizing: border-box;
 }
 .col-md-8 {
-    width: 30.667%;
+    width: 40.667%;
    
 }
 .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
     float: right;
+    padding-right: 20px;
+
     
+}
+
+li{
+    font-size: 14px;
 }
 
 body {
@@ -79,7 +85,11 @@ body {
 
 div.container{
 
-    padding-left: 200px;
+    
+    background-color: #fff;
+    padding-bottom: 1000px;
+    padding-left: 50px;
+    padding-right: 30px;
 }
 
 
@@ -106,17 +116,36 @@ div.btn-group{
 }
 
 .container {
-    width: 1200px;
+    width: 1024px;
     float: center;
+
 
 }
 
-div.logo{
-
-    float: center;
-    margin-bottom: 90%;
+div.logo {
+    margin-bottom: 5%;
     margin-right: 500px;
-   
+
+
+}
+*, *:after, *:before {
+    box-sizing: none;
+}
+div.row-menu{
+    float: right;
+    margin-top: 2px;
+
+}
+
+h2.acceuil {
+    font-size: 10px;
+    font-weight: 10;
+}
+
+.nav > li > a {
+    display: -moz-box;
+    padding: 3px 47px;
+    position: relative;
 }
 
 
