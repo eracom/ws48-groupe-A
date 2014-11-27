@@ -44,3 +44,64 @@
 @import 'javascript/scrollspy.scss';
 @import 'javascript/tab.scss';
 @import 'javascript/tooltips.scss';
+
+ul .dropdown-menu
+{
+	color: #fff;
+
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+.col-md-8 {
+    width: 30.667%;
+   
+}
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9 {
+    float: right;
+    
+}
+
+body {
+    background-color: #eee;
+   
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+
+}
+
+.nav-pills > li > a {
+    border-radius: 15px;
+}
+
+div.container{
+
+    padding-left: 200px;
+}
+
+
+
+.btn {
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 1.42857;
+    margin-bottom: 0;
+    padding: 6px 12px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.container {
+    width: 1024px;
+    float: center;
+}
