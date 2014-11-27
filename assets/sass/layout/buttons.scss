@@ -15,6 +15,7 @@ category: Layout - Buttons
 | Preview                                                        | Class                      |
 |----------------------------------------------------------------|----------------------------|
 | <button type="button" class="btn btn-default">Default</button> | <pre>btn btn-default</pre> |
+| <button type="button" class="btn btn-primary2">Primary2</button>| <pre>btn btn-primary2</pre>|
 | <button type="button" class="btn btn-primary">Primary</button> | <pre>btn btn-primary</pre> |
 | <button type="button" class="btn btn-success">Success</button> | <pre>btn btn-success</pre> |
 | <button type="button" class="btn btn-info">Info</button>       | <pre>btn btn-info</pre>    |
@@ -23,6 +24,14 @@ category: Layout - Buttons
 | <button type="button" class="btn btn-link">Link</button>       | <pre>btn btn-link</pre>    |
 */
 
+.btn-primary2 {
+  background-color: $brand-primary2;
+  color: white;
+}
+
+a:hover .btn-primary2 {
+  background-color: darken($brand-primary2, 6.5%);
+}
 
 /*doc
 ---
